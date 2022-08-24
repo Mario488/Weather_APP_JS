@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+.container{
+    background-image: url(images/weather-app-background3.jpg);
+    width: 600px;
+    height: 850px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 / 0.4);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.city{
+    margin-top: 250px;
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: white;
+}
+.date{
+    font-size: 1.3rem;
+    color: white;
+}
+.degrees{
+    font-size: 5.5rem;;
+    color: white;
+}
+#degrees:hover{
+    color: yellow;
+}
+.weather{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+input{
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 640px;
+    text-align: center;
+}
+input::placeholder{
+    letter-spacing: 7px;
+    text-align: center;
+}
+input:hover{
+    outline: 2px solid rgb(2, 2, 137);
+    border: none;
+    transform: scale(1.05);
+    transition: transform 300ms;
+}
+.text{
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+    top: 160px;
+}
+img{
+    position: relative;
+    bottom: 25px;
+}
+.orange{
+    color: rgb(178, 119, 119);
+}
